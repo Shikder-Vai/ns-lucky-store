@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "name": "Avocado-and-Egg-Toast",
+      "price": 150,
+      "img": "https://i.ibb.co/0Qd2DmS/Avocado-and-Egg-Toast.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Chicken-Sandwich",
+      "price": 200,
+      "img": "https://i.ibb.co/5LSYTWZ/Chicken-Sandwich.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Delicious-cake-with-pistachio",
+      "price": 600,
+      "img": "https://i.ibb.co/TTtG05G/Delicious-cake-with-pistachio-and-raspberries.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Hawaiian-Chicken-Pizza",
+      "price": 900,
+      "img": "https://i.ibb.co/qnSmYC1/Hawaiian-Chicken-Pizza-Smoked.jpg"
+    },
+    {
+      "id": 5,
+      "name": "I-scream-You-Scream",
+      "price": 300,
+      "img": "https://i.ibb.co/b1XszGs/I-scream-You-Scream.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Meal-with-salmon-and-zucchini",
+      "price": 700,
+      "img": "https://i.ibb.co/DRNMHmW/Meal-with-salmon-and-zucchini.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Mediterranean-Salad",
+      "price": 400,
+      "img": "https://i.ibb.co/YTtMwWP/Mediterranean-Salad.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Pancake-Stack",
+      "price": 2000,
+      "img": "https://i.ibb.co/vDgLTM7/Pancake-Stack.jpg"
+    },
+    {
+      "id": 9,
+      "name": "plates-of-pasta",
+      "price": 500,
+      "img": "https://i.ibb.co/hgTQ5VQ/plates-of-pasta.jpg"
+    }
+  ]
