@@ -9,10 +9,14 @@
     margin-right: 8px;
 }
 .cart-container{
-    border: 1px solid slategray;
     border-radius: 10px;
-    box-shadow: darkgray 9px;
+    box-shadow: 9px slategray;
 
+}
+.choose-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media screen and (max-width: 600px) {
     .foods-container{
