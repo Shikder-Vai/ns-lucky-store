@@ -5,16 +5,31 @@ import "./Foods.css";
 
 const Foods = () => {
   const [products, setProducts] = useState([]);
-  const [carts, setCarts] = useState([]);
+  const [cart, setCart] = useState([]);
   useEffect(() => {
     fetch("products.json")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
   const addToCart = (product) => {
-    console.log(product);
-    const newCart = [...carts, product];
-    setCarts(newCart);
+    const matchetProduct = cart.find((item) => item.id === product.id);
+    if (matchetProduct) {
+      alert("This Item has been already added");
+    } else if (cart.length >= 4) {
+      alert("You can not add more then 4 items");
+    } else {
+      const newCart = [...cart, product];
+      setCart(newCart);
+    }
+  };
+  const randomOne = () => {
+    const random = cart[Math.floor(Math.random() * cart.length)];
+    const newCarts = [random];
+    setCart(newCarts);
+  };
+  const resetButton = () => {
+    const reset = [];
+    setCart(reset);
   };
   return (
     <div className="foods-container">
@@ -24,10 +39,15 @@ const Foods = () => {
         ))}
       </div>
       <div className="cart-container">
-        {carts.map((cart) => (
-          <Cart key={cart.id} cart={cart}></Cart>
+        {cart.map((item) => (
+          <Cart key={item.id} item={item}></Cart>
         ))}
-        <Cart></Cart>
+        <button onClick={randomOne}>
+          <p>Choos one</p>
+        </button>
+        <button onClick={resetButton}>
+          <p>reset</p>
+        </button>
       </div>
     </div>
   );
