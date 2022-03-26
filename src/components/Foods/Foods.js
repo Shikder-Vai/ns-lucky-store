@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Cart from "../Cart/Cart";
 import Food from "../Food/Food";
+import Bonus from "../Q&A/Bonus";
 import "./Foods.css";
 
 const Foods = () => {
@@ -37,7 +38,6 @@ const Foods = () => {
         {products.map((product) => (
           <Food key={product.id} product={product} addToCart={addToCart}></Food>
         ))}
-        
       </div>
       <div className="cart-container">
         {cart.map((item) => (
@@ -50,6 +50,7 @@ const Foods = () => {
           <p>Choose Again</p>
         </button>
       </div>
+      <Bonus></Bonus>
     </div>
   );
 };
