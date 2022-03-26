@@ -12,6 +12,7 @@
     border: 1px solid slategray;
     border-radius: 10px;
     box-shadow: darkgray 9px;
+
 }
 @media screen and (max-width: 600px) {
     .foods-container{

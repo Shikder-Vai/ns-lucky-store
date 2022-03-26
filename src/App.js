@@ -4,7 +4,7 @@ import Foods from "./components/Foods/Foods";
 function App() {
   return (
     <div>
-      <h1 className="shop-title">Welcome to Ns Lukey Shop</h1>
+      <h1 className="shop-title">Welcome to Ns Lucky Shop</h1>
       <Foods></Foods>
     </div>
   );
