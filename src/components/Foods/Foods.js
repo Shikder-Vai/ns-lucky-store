@@ -37,16 +37,17 @@ const Foods = () => {
         {products.map((product) => (
           <Food key={product.id} product={product} addToCart={addToCart}></Food>
         ))}
+        
       </div>
       <div className="cart-container">
         {cart.map((item) => (
           <Cart key={item.id} item={item}></Cart>
         ))}
         <button onClick={randomOne}>
-          <p>Choos one</p>
+          <p>Choose one</p>
         </button>
         <button onClick={resetButton}>
-          <p>reset</p>
+          <p>Choose Again</p>
         </button>
       </div>
     </div>
