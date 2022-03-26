@@ -1,0 +1,44 @@
+.food{
+    width: 300px;
+    height: 450px;
+    border: 2px solid darkseagreen;
+    border-radius: 15px;
+    position: relative;
+}
+.food-name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 4px;
+}
+.food img{
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    margin: 7px;
+}
+.food-info{
+    padding: 10px;
+}
+.food-price{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.btn-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #ffe083;
+    border: none;
+    border-radius: 0px 0px 15px 15px;
+    position: absolute;
+    bottom: 0;
+}
+.btn-cart:hover{
+    background: orange;
+}
+.btn-text{
+    margin-right: 5px;
+}

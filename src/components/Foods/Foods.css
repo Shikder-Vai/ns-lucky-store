@@ -1,0 +1,15 @@
+.foods-container{
+    display: grid;
+    grid-template-columns: 3.5fr 1.5fr;
+}
+.produnct-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-right: 8px;
+}
+.cart-container{
+    border: 1px solid slategray;
+    border-radius: 10px;
+    box-shadow: darkgray 9px;
+}
